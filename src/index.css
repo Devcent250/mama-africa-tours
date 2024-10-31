@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add the following CSS for the loader */
+.loader {
+    border-top-color: #38b2ac;
+    border: 8px solid rgba(255, 255, 255, 0.3); /* Optional background border */
+    border-radius: 50%;
+    width: 48px;
+    height: 48px;
+    animation: spin 1s ease-in-out infinite;
+  }
+  .main-content {
+    margin-top: 80px; /* Adjust based on the combined height of your header and nav menu */
+  }
+  @font-face {
+    font-family: 'Coolvetica';
+    src: url('./assets/fonts/coolvetica rg.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  
