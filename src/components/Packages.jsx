@@ -17,7 +17,7 @@ const Packages = ({ packagesData, onTourSelect }) => {
         style={{
           backgroundImage: `url('src/assets/img/31.jpg')`,
           height: '50vh',
-          width: '160%',
+          width: '100%',
           marginLeft: '-1%',
           
         }}
